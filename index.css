@@ -16,6 +16,29 @@
     box-shadow: 0 0 10px 0 #000;
 }
 /*  */
+/*  */
+#parent{
+    background-color: transparent;
+    margin-bottom: 18px;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+#center{
+    background-color: green;
+    position: absolute;
+    bottom: -25px;
+    right: 225px;
+    /* margin-top: 40px; */
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid red; */
+}
+/*  */
+/*  */
 .none{
     display: none !important;
     }
